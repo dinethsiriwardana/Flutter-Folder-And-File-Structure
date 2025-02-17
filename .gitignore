@@ -1,0 +1,6 @@
+.dart_tool/package_config.json
+.dart_tool/package_config_subset
+.dart_tool/version
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
