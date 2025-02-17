@@ -55,6 +55,8 @@ Flutter-Folder-And-File-Structure
 - **lib/presentation**: Contains UI-related code, such as BLoC logic, screens, and widgets.
 - **lib/utils**: Contains utility classes like theme, styles, and route management.
 
+- **.github/workflows/main.yml**: This GitHub Action runs automatically when a PR is created for the main branch. It validates the code against the rules defined in **analysis_options.yaml**, eliminating the need for manual error checking.
+- 
 ## Use the File
 
 ```bash
