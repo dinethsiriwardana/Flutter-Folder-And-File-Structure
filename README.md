@@ -59,35 +59,13 @@ Flutter-Folder-And-File-Structure
 - 
 ## Use the File
 
-```bash
-git archive --remote=https://github.com/dinethsiriwardana/Flutter-Folder-And-File-Structure.git HEAD --format=zip --output=lib.zip
+- Click the Code button → Download ZIP.
+- Extract the downloaded ZIP file.
 
-```
-
-## Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/dinethsiriwardana/Flutter-Folder-And-File-Structure.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd flutter-folder-and-file-structure
-   ```
-
-3. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
 
 ## Usage
 
-To run the project locally on your machine, use the following command:
-
-```bash
-flutter run
-```
+You can use this files as a template for your project.
 
 ## Dependencies
 
