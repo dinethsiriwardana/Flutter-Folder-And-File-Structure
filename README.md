@@ -1,6 +1,9 @@
 
 # Flutter-Folder-And-File-Structure
 
+<img  alt="Flutter-feature" src="https://github.com/user-attachments/assets/88087407-bdbf-4ec0-a0c2-a27dd6a2eb44" />
+
+
 This Flutter project demonstrates a well-organized folder and file structure that follows best practices for scalable and maintainable app development. It provides a clear separation of concerns and is structured to support clean architecture principles.
 
 ## Project Structure
