@@ -83,10 +83,7 @@ flutter run
 ## Dependencies
 
 - `flutter_bloc`: For state management using BLoC pattern.
-- `auto_size_text`: For auto-sizing text widgets.
-- `firebase_core`, `firebase_database`, `cloud_firestore`: For Firebase integration.
-- `google_maps_flutter`: For map-related features.
-- `geolocator`: For location services.
+- `responsive_sizer`: For auto-sizing text widgets.
 
 ## Contributing
 
