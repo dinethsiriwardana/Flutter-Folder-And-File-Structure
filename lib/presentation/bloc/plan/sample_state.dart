@@ -1,4 +1,4 @@
-part of 'plan_data_bloc.dart';
+part of 'sample_bloc.dart';
 
 @immutable
 sealed class SampleState {}

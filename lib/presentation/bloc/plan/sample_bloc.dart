@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:ksn_lunchbox_customer_mobile/data/models/sample_model.dart';
-import 'package:ksn_lunchbox_customer_mobile/data/repository/plan_data.dart';
+import 'package:ksn_lunchbox_customer_mobile/data/repository/sample_data.dart';
 import 'package:ksn_lunchbox_customer_mobile/domain/use_cases/sample_uc.dart';
 import 'package:meta/meta.dart';
 
