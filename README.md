@@ -55,11 +55,18 @@ Flutter-Folder-And-File-Structure
 - **lib/presentation**: Contains UI-related code, such as BLoC logic, screens, and widgets.
 - **lib/utils**: Contains utility classes like theme, styles, and route management.
 
+## Use the File
+
+```bash
+git archive --remote=https://github.com/dinethsiriwardana/Flutter-Folder-And-File-Structure.git HEAD --format=zip --output=lib.zip
+
+```
+
 ## Installation
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/flutter-folder-and-file-structure.git
+   git clone https://github.com/dinethsiriwardana/Flutter-Folder-And-File-Structure.git
    ```
 
 2. Navigate to the project directory:
