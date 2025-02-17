@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
-import 'package:ksn_lunchbox_customer_mobile/utils/colors.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
+import 'package:sample_mobile_app/utils/colors.dart';
 
 class AppTheme {
   static ThemeData responsiveTheme = ThemeData(
-
     useMaterial3: true,
     brightness: Brightness.light,
     scaffoldBackgroundColor: AppColors.bgColor,
     textTheme: TextTheme(
-      
         displayLarge: GoogleFonts.roboto(
           fontSize: 34.sp,
           color: AppColors.textPrimaryColor,

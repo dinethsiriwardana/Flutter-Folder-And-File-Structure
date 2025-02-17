@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ksn_lunchbox_customer_mobile/presentation/bloc/plan/sample_bloc.dart';
-import 'package:ksn_lunchbox_customer_mobile/presentation/widgets/common/img.dart';
+
 import 'package:responsive_sizer/responsive_sizer.dart';
+
+import '../../bloc/plan/sample_bloc.dart';
+import '../../widgets/common/img.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -50,9 +52,9 @@ class _HomePageState extends State<HomePage> {
             }).toList(),
           );
         } else if (state is SampleLoading) {
-          return CircularProgressIndicator();
+          return const CircularProgressIndicator();
         } else {
-          return Text('Failed to load plans');
+          return const Text('Failed to load plans');
         }
       },
     );

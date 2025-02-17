@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ksn_lunchbox_customer_mobile/presentation/bloc/plan/sample_bloc.dart';
-import 'package:ksn_lunchbox_customer_mobile/utils/route.dart';
-import 'package:ksn_lunchbox_customer_mobile/utils/styles.dart';
+
 import 'package:responsive_sizer/responsive_sizer.dart';
+
+import 'presentation/bloc/plan/sample_bloc.dart';
+import 'utils/route.dart';
+import 'utils/styles.dart';
 
 void main() {
   runApp(MyApp());

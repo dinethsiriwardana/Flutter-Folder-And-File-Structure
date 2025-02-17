@@ -1,0 +1,60 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  language:
+    strict-raw-types: true # Enforce generic type parameters
+
+  errors:
+    # UI and Widget related
+    sized_box_shrink_expand: error # Proper usage of SizedBox
+    use_key_in_widget_constructors: error # Widgets should have keys when needed
+    valid_regexps: error # Validate regular expressions
+
+    # Variable naming and usage
+    non_constant_identifier_names: error # Variable naming conventions
+    constant_identifier_names: error # Constant naming conventions
+    prefer_final_locals: error # Use final for variables when possible
+    prefer_const_declarations: error # Use const when possible
+
+    # Common mistakes prevention
+    empty_catches: error # No empty catch blocks
+    avoid_unnecessary_containers: error # No unnecessary Container widgets
+    must_be_immutable: error # Classes extending StatelessWidget should be immutable
+
+    unused_import: error # Unused imports
+    unused_local_variable: error # Unused local variables
+
+linter:
+  rules:
+    # UI Best Practices
+    use_decorated_box: true # Use DecoratedBox instead of Container when possible
+    sized_box_for_whitespace: true # Use SizedBox for spacing
+    avoid_unnecessary_containers: true # Don't wrap unnecessarily with Container
+    prefer_const_constructors: true # Use const constructors when possible
+    avoid_redundant_argument_values: true # Remove default argument values
+
+    # Variable and State Management
+    prefer_final_fields: true # Use final for class fields
+    prefer_final_locals: true # Use final for local variables
+    prefer_final_in_for_each: true # Use final in for-each loops
+    avoid_init_to_null: true
+
+    # Naming Conventions
+    camel_case_types: true # Classes and types use CamelCase
+    camel_case_extensions: true # Extensions use camelCase
+    file_names: true # Use lowercase_with_underscores for file names
+
+    # Error Prevention
+    avoid_catches_without_on_clauses: true # Specify type when catching exceptions
+    avoid_empty_else: true # No empty else blocks
+
+    # Performance
+    avoid_slow_async_io: true # Avoid slow async operations
+    prefer_contains: true # Use contains instead of indexOf
+
+    # Code Organization
+    always_declare_return_types: true # Always specify return types
+    sort_child_properties_last: true # Child widget properties come last
+
+    # Accessibility
+    use_full_hex_values_for_flutter_colors: true # Use full hex for colors

@@ -1,11 +1,10 @@
 // routing for the app
 import 'package:flutter/material.dart';
-import 'package:ksn_lunchbox_customer_mobile/data/models/sample_model.dart';
 
-import 'package:ksn_lunchbox_customer_mobile/presentation/screens/home/home_page.dart';
+import '../presentation/screens/home/home_page.dart';
 
 class AppRouter {
-  Route generateRoute(RouteSettings settings) {
+  Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case '/home':
         return MaterialPageRoute(
@@ -24,7 +23,7 @@ class AppRouter {
 
       default:
         return MaterialPageRoute(
-          builder: (_) => Scaffold(),
+          builder: (_) => const Scaffold(),
         );
     }
   }
