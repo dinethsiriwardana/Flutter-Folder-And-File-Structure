@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:sample_mobile_app/utils/colors.dart';
+import 'package:sample_app/utils/colors.dart';
 
 class AppTheme {
   static ThemeData responsiveTheme = ThemeData(
